@@ -28,12 +28,8 @@
   "group": "The stones",
   "items": [
    {
-    "q": "Are your beads natural?",
-    "a": "Almost all of our stock is natural gemstone cut in Jaipur. A small number of items are glass (sold as hydro quartz in the trade), coated, or dyed, and every one of those is labeled as such on the listing and the tag. If a listing does not say treated, coated, dyed or glass, it is natural stone."
-   },
-   {
-    "q": "What does treated mean?",
-    "a": "Most gemstones are routinely heated (sapphire, tanzanite, citrine), irradiated (blue topaz), oiled (emerald) or smoked (black Ethiopian opal). These are standard trade practices and we state them on every stone page so you know what you are buying."
+    "q": "Are your beads natural gemstone?",
+    "a": "Yes. Our strands are natural gemstone cut in Jaipur, checked strand by strand before they are listed. Every listing states the stone, shape, size and cut."
    },
    {
     "q": "What is the difference between precious and semi-precious?",
