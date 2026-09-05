@@ -4,7 +4,11 @@
   "items": [
    {
     "q": "How do I buy a strand?",
-    "a": "Message us on WhatsApp or email with the SKU from the listing, or come to the booth at any show on the Shows page. We confirm what is in stock, quote shipping to your address, and send an invoice you can pay online. There is no cart on this site yet."
+    "a": "Every listing shows the price per strand. Message us on WhatsApp or email with the SKU, or come to the booth at any show on the Shows page. We confirm what is in stock, add shipping to your address, and send an invoice you can pay online. There is no cart on this site yet."
+   },
+   {
+    "q": "Do you offer free shipping?",
+    "a": "Yes, on US orders over $100. Orders under $100 ship at cost, which we confirm before you pay."
    },
    {
     "q": "Do you sell to shops and designers at wholesale?",
