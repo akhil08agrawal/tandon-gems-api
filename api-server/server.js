@@ -64,7 +64,8 @@ async function context(query) {
   if (sh.length) parts.push("SHAPES:\n" + sh.map((x) => `- ${x.plural} (/shapes/${x.slug}): ${x.definition} Measured ${x.measured}. Drilled ${x.drill}. Used for ${x.use}.`).join("\n"));
   if (pr.length) parts.push("MATCHING STRANDS:\n" + pr.map((p) => `- ${p.sku} | ${p.title} | ${p.inStock ? "in stock" : "sold out"} | /shop/${p.sku}`).join("\n"));
   if (fq.length) parts.push("FAQ:\n" + fq.map((f) => `Q: ${f.q}\nA: ${f.a}`).join("\n"));
-  parts.push("UPCOMING INTERGEM SHOWS:\n" + upcoming(shows).slice(0, 10).map((s) => `${fmt(s)}: ${s.city}, ${s.state} at ${s.venue}${s.tandonUsual ? " (Tandon Gems usually exhibits here)" : ""}`).join("\n"));
+  parts.push("ALL STONES WE CARRY (name | Mohs | family | strands | page):\n" + stones.filter((s) => !s.isDisclosureEntry).map((s) => `${s.name} | ${s.hardness || "n/a"} | ${s.family || "n/a"} | ${s.productCount} | /stones/${s.slug}`).join("\n"));
+  parts.push("UPCOMING INTERGEM SHOWS (complete):\n" + upcoming(shows).map((s) => `${fmt(s)}: ${s.city}, ${s.state} at ${s.venue}${s.tandonUsual ? " (Tandon Gems usually exhibits here)" : ""}`).join("\n"));
   return parts.join("\n\n");
 }
 const SYSTEM = `You are the shop assistant for Tandon Gems, a gemstone bead dealer. Answer using only the CONTEXT provided. Two to five short sentences, or a short list when comparing. Plain English.
