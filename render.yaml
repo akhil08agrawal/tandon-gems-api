@@ -1,0 +1,23 @@
+# Render blueprint: the always-on API companion to the Vercel-hosted Next.js site.
+# The Next.js site works on Vercel alone (it has its own /api routes); this service exists for
+# integrations that need a stable, always-on base URL (WhatsApp bots, scheduled jobs, other sites).
+services:
+  - type: web
+    name: tandon-gems-api
+    runtime: node
+    region: oregon
+    plan: free
+    rootDir: api-server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: OPENAI_MODEL
+        value: gpt-4.1-mini
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: OPENAI_API_KEY
+        sync: false

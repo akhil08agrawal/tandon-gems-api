@@ -1,0 +1,78 @@
+[
+ {
+  "group": "Buying",
+  "items": [
+   {
+    "q": "How do I buy a strand?",
+    "a": "Message us on WhatsApp or email with the SKU from the listing, or come to the booth at any show on the Shows page. We confirm what is in stock, quote shipping to your address, and send an invoice you can pay online. There is no cart on this site yet."
+   },
+   {
+    "q": "Do you sell to shops and designers at wholesale?",
+    "a": "Yes. Most of our regular buyers are designers and bead shops. Tell us what you make and how often you buy and we will set you up with a reorder list."
+   },
+   {
+    "q": "Can I reserve strands and pick them up at a show?",
+    "a": "Yes. Send the SKUs a few days before the show and we bring them to the booth. Unpaid reservations are held for the first day only."
+   },
+   {
+    "q": "Do you ship internationally?",
+    "a": "We ship worldwide from Cupertino, California. Customs duties and taxes at the destination are the buyer's responsibility, and delivery times vary by country."
+   },
+   {
+    "q": "What is your return policy?",
+    "a": "Unaltered strands can be returned within 30 days. Strands that have been cut, restrung or worn cannot be returned. Natural color and size variation within the stated range is not a defect."
+   }
+  ]
+ },
+ {
+  "group": "The stones",
+  "items": [
+   {
+    "q": "Are your beads natural?",
+    "a": "Almost all of our stock is natural gemstone cut in Jaipur. A small number of items are glass (sold as hydro quartz in the trade), coated, or dyed, and every one of those is labeled as such on the listing and the tag. If a listing does not say treated, coated, dyed or glass, it is natural stone."
+   },
+   {
+    "q": "What does treated mean?",
+    "a": "Most gemstones are routinely heated (sapphire, tanzanite, citrine), irradiated (blue topaz), oiled (emerald) or smoked (black Ethiopian opal). These are standard trade practices and we state them on every stone page so you know what you are buying."
+   },
+   {
+    "q": "What is the difference between precious and semi-precious?",
+    "a": "Precious is the traditional label for ruby, sapphire and emerald. Semi-precious covers everything else, including some of the rarest stones we stock. We use both labels because buyers search by them, not because one shelf is better than the other."
+   },
+   {
+    "q": "How are sizes measured?",
+    "a": "Rondelles and rounds are given by diameter. Drops, pears, ovals and bars are width by length, in millimeters. Natural stones vary, so a 4mm strand will contain beads from roughly 3.5 to 4.5mm."
+   },
+   {
+    "q": "How long is a strand?",
+    "a": "Most faceted strands are 8 inches; larger shapes and smooth strands are usually 13 to 16 inches. The exact length and approximate bead count are on each listing where we have measured them."
+   }
+  ]
+ },
+ {
+  "group": "Care",
+  "items": [
+   {
+    "q": "How should I care for gemstone beads?",
+    "a": "Store strands separately so harder stones do not scratch softer ones, keep them away from perfume and household chemicals, and clean with a soft dry cloth. Opal, pearl, fluorite, rhodochrosite and larimar are soft or porous and need the most care; sapphire, spinel and garnet are hard enough for daily wear."
+   },
+   {
+    "q": "Will the color fade?",
+    "a": "Kunzite, amethyst and some topaz can fade with long sun exposure. Hydrophane Ethiopian opal changes temporarily when it absorbs water. Everything else in our stock is stable."
+   }
+  ]
+ },
+ {
+  "group": "Shows",
+  "items": [
+   {
+    "q": "Which shows do you attend?",
+    "a": "We exhibit on the International Gem and Jewelry Show (InterGem) circuit, mainly the West Coast and Texas dates: San Mateo, Pasadena, Seattle, Denver, Dallas, Houston and Rosemont. The Shows page pulls the live InterGem schedule."
+   },
+   {
+    "q": "Where are you based?",
+    "a": "Cupertino, California. We are not a walk-in store; visit us at a show or contact us to arrange a viewing."
+   }
+  ]
+ }
+]
