@@ -1,0 +1,192 @@
+{
+ "created": "2026-09-06",
+ "note": "Frozen prompt set: 30 priority-1 questions, up to 5 per pillar, live posts first. Append only, with a dated note.",
+ "brand_names": [
+  "Tandon Gems",
+  "tandongems"
+ ],
+ "domains": [
+  "tandon-gems.vercel.app",
+  "tandongems.com"
+ ],
+ "competitor_domains": [
+  "armoniagems.com",
+  "artbeads.com",
+  "beadaholique.com",
+  "beads.co",
+  "beadsboatinc.com",
+  "beadsdirect.co.uk",
+  "beadsofcambay.com",
+  "beadworks.com",
+  "cooksongold.com",
+  "dakotastones.com",
+  "firemountaingems.com",
+  "gemrockauctions.com",
+  "gemsbiz.com",
+  "gemselect.com",
+  "goldenagebeads.com",
+  "grsilverdesigns.com",
+  "halsteadbead.com",
+  "jaipurbeads.com",
+  "kernowcraft.com",
+  "limabeads.com",
+  "navrabeads.com",
+  "nunndesign.com",
+  "riogrande.com",
+  "sagstone.com",
+  "thebeadtraders.com",
+  "thebeworld.com"
+ ],
+ "prompts": [
+  {
+   "id": "how-to-price-beaded-gemstone-jewelry",
+   "q": "How do I price beaded jewelry for sale?",
+   "pillar": "business-buyers"
+  },
+  {
+   "id": "gemstone-bead-sizes-explained",
+   "q": "What size gemstone beads should I buy for a necklace or bracelet?",
+   "pillar": "buying-guides"
+  },
+  {
+   "id": "how-many-beads-on-a-strand",
+   "q": "How many 4mm beads are on a 15 inch strand?",
+   "pillar": "buying-guides"
+  },
+  {
+   "id": "how-to-tell-if-gemstone-beads-are-real",
+   "q": "How can I tell if gemstone beads are real?",
+   "pillar": "buying-guides"
+  },
+  {
+   "id": "what-drives-gemstone-bead-strand-prices",
+   "q": "How much do gemstone bead strands cost and why do prices vary so much?",
+   "pillar": "buying-guides"
+  },
+  {
+   "id": "can-labradorite-get-wet-everyday-wear",
+   "q": "Can labradorite go in water?",
+   "pillar": "care"
+  },
+  {
+   "id": "can-moonstone-go-in-water",
+   "q": "Can moonstone go in water?",
+   "pillar": "care"
+  },
+  {
+   "id": "gemstone-hardness-guide-for-beads",
+   "q": "Which gemstone beads are hard enough for an everyday bracelet?",
+   "pillar": "care"
+  },
+  {
+   "id": "labradorite-vs-moonstone",
+   "q": "What is the difference between labradorite and moonstone?",
+   "pillar": "comparisons"
+  },
+  {
+   "id": "first-gem-show-guide-for-bead-buyers",
+   "q": "How do I prepare for my first gem show?",
+   "pillar": "gem-shows"
+  },
+  {
+   "id": "how-to-inspect-a-bead-strand-at-a-show",
+   "q": "How do I check the quality of a bead strand before buying?",
+   "pillar": "gem-shows"
+  },
+  {
+   "id": "best-stringing-material-for-gemstone-beads",
+   "q": "Should I string sapphire beads on wire or silk?",
+   "pillar": "making"
+  },
+  {
+   "id": "how-many-beads-for-a-bracelet",
+   "q": "How many 6mm beads do I need for a 7 inch bracelet?",
+   "pillar": "making"
+  },
+  {
+   "id": "how-many-beads-for-an-18-inch-necklace",
+   "q": "How many 6mm or 8mm beads do I need for an 18 inch necklace, and is one strand enough?",
+   "pillar": "making"
+  },
+  {
+   "id": "what-to-make-with-pear-shaped-gemstone-beads",
+   "q": "What can I make with pear shaped gemstone beads?",
+   "pillar": "making"
+  },
+  {
+   "id": "ethiopian-welo-opal-beads-guide",
+   "q": "Why is Ethiopian opal cheaper than Australian opal?",
+   "pillar": "stone-guides"
+  },
+  {
+   "id": "labradorite-beads-guide",
+   "q": "What is labradorite and why does it flash?",
+   "pillar": "stone-guides"
+  },
+  {
+   "id": "umba-sapphire-multi-color-beads",
+   "q": "What is Umba sapphire and are multi sapphire beads real sapphire?",
+   "pillar": "stone-guides"
+  },
+  {
+   "id": "allocate-strand-cost-to-earring-pairs-and-leftovers",
+   "q": "What's the best way to split the cost of a gemstone bead strand into matched earring pairs and remaining beads, and how should I price each item?",
+   "pillar": "business-buyers"
+  },
+  {
+   "id": "cycle-count-gemstone-bead-inventory-abc-method",
+   "q": "How frequently should a bead shop cycle-count gemstone strand inventory versus earring-pair trays, how do I assign ABC classes by sales/week, and what error rates are acceptable before recounts?",
+   "pillar": "business-buyers"
+  },
+  {
+   "id": "expected-cull-rate-by-stone-and-shape-yield-math",
+   "q": "What cull rate should I budget for gemstone bead strands by stone and shape, and what yield can I expect from a 16-inch?",
+   "pillar": "business-buyers"
+  },
+  {
+   "id": "gemstone-bead-listing-template-reduce-returns",
+   "q": "What should I include in an Etsy or website listing for gemstone bead strands to reduce returns, and what does a perfect listing look like for labradorite, moonstone and opal?",
+   "pillar": "business-buyers"
+  },
+  {
+   "id": "bails-for-pyramids-and-trilliants-size-guide",
+   "q": "What size bails or jump rings fit pyramid and trilliant gemstone beads, and what inner diameters and wire gauges should I use by drill height?",
+   "pillar": "buying-guides"
+  },
+  {
+   "id": "best-humidity-for-storing-ethiopian-opal-beads",
+   "q": "What relative humidity is best for storing Ethiopian opal bead strands, and how do I maintain it?",
+   "pillar": "care"
+  },
+  {
+   "id": "ethiopian-opal-bead-care",
+   "q": "Can Ethiopian opal beads get wet and will they turn yellow?",
+   "pillar": "care"
+  },
+  {
+   "id": "amethyst-vs-iolite-vs-tanzanite-most-purple-3-4mm",
+   "q": "In 3-4 mm beads for bracelets or earrings, which stone reads most purple, amethyst, iolite or tanzanite, and which shapes hold color best at these sizes?",
+   "pillar": "comparisons"
+  },
+  {
+   "id": "aquamarine-vs-blue-topaz-vs-blue-chalcedony-3-5mm",
+   "q": "For 3-5 mm pale-blue earrings, should I choose aquamarine, blue topaz (London/Swiss/sky) or blue chalcedony beads, and which shapes give the best color and sparkle with the lowest weight per pair?",
+   "pillar": "comparisons"
+  },
+  {
+   "id": "australian-gray-opal-vs-rainbow-moonstone-indoors",
+   "q": "For gray-base beads, which shows more color in indoor light, Australian gray-body opal or rainbow moonstone, and in which shapes and sizes?",
+   "pillar": "comparisons"
+  },
+  {
+   "id": "chrysocolla-shattuckite-vs-turquoise-beads",
+   "q": "How can I tell chrysocolla or shattuckite beads from turquoise, and which should I choose for my design?",
+   "pillar": "comparisons"
+  },
+  {
+   "id": "compare-per-strand-per-carat-pricing-at-shows",
+   "q": "If one booth quotes $/strand and another $/ct or $/g, how do I convert on the show floor using typical strand weights for 2-6 mm tourmaline and sapphire rondelles, so I can compare apples to apples?",
+   "pillar": "gem-shows"
+  }
+ ]
+}
