@@ -59,12 +59,6 @@ def main():
         if dry: print("would publish", slug, "dated", live["publishedAt"]); continue
         req("POST", f"{BASE}/data/mutate/{DATASET}", {"mutations": [{"createOrReplace": live}, {"delete": {"id": d["_id"]}}]}); published.append(slug); print("published", slug, "dated", live["publishedAt"])
     if published: indexnow([f"{SITE}/blog/{s}" for s in published] + [f"{SITE}/blog", f"{SITE}/sitemap.xml"])
-    # Catalog edits made in the Studio reach the site only through a build (data/overrides.json is pulled at build time).
-    since = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=13)).isoformat(timespec="seconds").replace("+00:00", "Z")
-    edited = query('count(*[_type in ["product", "stone", "shape"] && _updatedAt > $since])', {"since": since})
-    if edited and _local_env("VERCEL_DEPLOY_HOOK") and not dry:
-        try: urllib.request.urlopen(urllib.request.Request(_local_env("VERCEL_DEPLOY_HOOK"), method="POST"), timeout=60); print(f"redeploy triggered: {edited} catalog documents edited since {since[:16]}")
-        except Exception as e: print("redeploy failed", str(e)[:100])
     left = query('count(*[_type == "post" && _id in path("drafts.**") && defined(scheduledFor) && coalesce(reviewStatus, "auto") == "auto"])')
     print("scheduled drafts left:", left)
     # The cron runs at 00:00 and 16:00 UTC; only the 00:00 run alerts, so the group gets at most one runway message a day.

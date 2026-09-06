@@ -6,7 +6,7 @@ Keys: OPENAI_API_KEY, EXA_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY from the en
 Every call costs money (cents). Retries: 3 with backoff on 429 and 5xx. Measures the model layer through the API, not the
 consumer chat UI; label results that way."""
 import json, os, pathlib, time, urllib.request, urllib.error
-ROOT = pathlib.Path(__file__).resolve().parents[2]  # on Render this is the repo root; site/.env.local does not exist there and env vars are used
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 def env(name):
     v = os.environ.get(name)
     if v: return v
