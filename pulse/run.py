@@ -10,6 +10,15 @@ an engine that fails three times in a row is dropped for the run instead of burn
 import json, sys, pathlib, datetime, re, collections, urllib.request, urllib.parse
 sys.path.insert(0, str(pathlib.Path(__file__).parent)); import engines as E
 HERE = pathlib.Path(__file__).parent; SNAP = HERE / "snapshots"; SNAP.mkdir(exist_ok=True)
+PROJECT = E.env("SANITY_PROJECT_ID") or "68f1un3b"; DATASET = E.env("SANITY_DATASET") or "production"
+def sanity(method, path, body=None):
+    """Snapshots also live in Sanity (pulseSnapshot documents) so the Render cron, which has no persistent disk, can compare week to week and the dashboard can chart them."""
+    tok = E.env("SANITY_API_TOKEN")
+    if not tok: return None
+    r = urllib.request.Request(f"https://{PROJECT}.api.sanity.io/v2025-09-01{path}", data=json.dumps(body).encode() if body else None, method=method, headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(r, timeout=60) as resp: return json.load(resp)
+    except Exception as e: print("sanity:", str(e)[:120]); return None
 def host(u):
     try: h = urllib.parse.urlparse(u).netloc.lower(); return h[4:] if h.startswith("www.") else h
     except Exception: return ""
@@ -41,9 +50,14 @@ def main():
     m = metrics(records); per = {e: metrics([r for r in records if r["engine"] == e]) for e in names if any(r["engine"] == e for r in records)}
     hosts = collections.Counter(h for r in records for h in r["cited_hosts"]); top = hosts.most_common(15)
     today = datetime.date.today().isoformat(); prev_files = sorted(f for f in SNAP.glob("*.json") if f.stem < today); prev = json.load(open(prev_files[-1])) if prev_files else None
+    if prev is None:
+        q = urllib.parse.urlencode({"query": '*[_type == "pulseSnapshot" && date < $today] | order(date desc) [0]{ date, metrics }', "$today": json.dumps(today)})
+        got = sanity("GET", f"/data/query/{DATASET}?{q}"); prev = (got or {}).get("result") or None
     deltas = {k: round(m[k] - prev["metrics"][k], 3) for k in ("citation_rate", "mention_rate", "share_of_voice") if prev and k in prev.get("metrics", {})} if prev else {}
     snap = {"date": today, "engines": names, "repeats": repeats, "prompt_count": len(prompts), "metrics": m, "per_engine": per, "top_hosts": top, "deltas": deltas, "failures": failures, "records": records, "note": "API-measured model layer, not the consumer UI"}
-    if not limit: json.dump(snap, open(SNAP / f"{today}.json", "w"), indent=1)
+    if not limit:
+        json.dump(snap, open(SNAP / f"{today}.json", "w"), indent=1)
+        sanity("POST", f"/data/mutate/{DATASET}", {"mutations": [{"createOrReplace": {"_id": f"pulse-{today}", "_type": "pulseSnapshot", **{k: v for k, v in snap.items() if k != "records"}, "cited": [{"engine": r["engine"], "prompt": r["prompt"], "position": r["our_position"]} for r in records if r["domain_cited"]]}}]}) and print("snapshot saved to Sanity")
     lines = [f"# AEO pulse {today}", "", f"Engines: {', '.join(names)}. Prompts: {len(prompts)}. Observations: {m['observations']}. Measured through the APIs (model layer), not the chat apps.", "",
              f"- Citation rate (our domain in the sources): {m['citation_rate']:.0%}" + (f" ({deltas['citation_rate']:+.0%} vs {prev['date']})" if deltas else " (first run)"),
              f"- Brand mention rate: {m['mention_rate']:.0%}" + (f" ({deltas['mention_rate']:+.0%})" if deltas else ""),

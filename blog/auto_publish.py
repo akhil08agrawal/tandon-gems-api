@@ -10,7 +10,7 @@ keep it that way (the cron installs nothing). Secrets come from Render's environ
 Side effects: writes to Sanity (createOrReplace post-<slug>, delete drafts.post-<slug>), which fires the Sanity webhook to
 site/app/api/revalidate (page rebuild plus a WhatsApp "New post live" notice); pings IndexNow; may post one runway alert a day to WhatsApp.
 Outputs: nothing on disk; log lines only.
-Run locally: SANITY_API_TOKEN=... python3 scripts/blog/auto_publish.py --dry
+Run locally: SANITY_API_TOKEN=... python3 aeo/pipeline/auto_publish.py --dry
 Traps: a draft with reviewStatus auto and a past scheduledFor is published within 12 hours of being pushed, so use --hold in
 make_post.py or set reviewStatus hold in Studio for anything that needs a human read. Changing --limit changes how fast the runway
 drains (schedule_bank.py assumes two slots a day). The live document keeps the calendar publishedAt, which may be backdated by design.
@@ -18,7 +18,16 @@ drains (schedule_bank.py assumes two slots a day). The live document keeps the c
 import json, os, sys, datetime, urllib.request, urllib.error, urllib.parse
 PROJECT = os.environ.get("SANITY_PROJECT_ID", "68f1un3b"); DATASET = os.environ.get("SANITY_DATASET", "production"); API = "v2025-09-01"
 BASE = f"https://{PROJECT}.api.sanity.io/{API}"; SITE = os.environ.get("SITE_URL", "https://tandon-gems.vercel.app")
-TOKEN = os.environ.get("SANITY_API_TOKEN") or sys.exit("SANITY_API_TOKEN missing")
+def _local_env(name):
+    """On Render the value is an env var; for local dry runs fall back to site/.env.local."""
+    v = os.environ.get(name)
+    if v: return v
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "site", ".env.local")
+    if os.path.exists(f):
+        for line in open(f):
+            if line.startswith(name + "="): return line.split("=", 1)[1].strip()
+    return None
+TOKEN = _local_env("SANITY_API_TOKEN") or sys.exit("SANITY_API_TOKEN missing")
 def req(method, url, data=None, headers=None):
     h = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}; h.update(headers or {})
     r = urllib.request.Request(url, data=json.dumps(data).encode() if data is not None else None, method=method, headers=h)
@@ -27,12 +36,12 @@ def query(groq, params=None):
     q = {"query": groq, "perspective": "raw"}; [q.__setitem__(f"${k}", json.dumps(v)) for k, v in (params or {}).items()]
     return req("GET", f"{BASE}/data/query/{DATASET}?{urllib.parse.urlencode(q)}")["result"]
 def wa(text, key):
-    hook = os.environ.get("WA_OPS_WEBHOOK")
+    hook = _local_env("WA_OPS_WEBHOOK")
     if not hook: return
     try: urllib.request.urlopen(urllib.request.Request(hook, data=json.dumps({"text": text}).encode(), method="POST", headers={"Content-Type": "application/json", "Idempotency-Key": key}), timeout=60)
     except Exception as e: print("wa failed", str(e)[:100])
 def indexnow(urls):
-    key = os.environ.get("INDEXNOW_KEY")
+    key = _local_env("INDEXNOW_KEY")
     if not key or not urls: return
     try: urllib.request.urlopen(urllib.request.Request("https://api.indexnow.org/indexnow", data=json.dumps({"host": urllib.parse.urlparse(SITE).netloc, "key": key, "keyLocation": f"{SITE}/{key}.txt", "urlList": urls}).encode(), method="POST", headers={"Content-Type": "application/json; charset=utf-8"}), timeout=60); print("indexnow pinged", len(urls))
     except Exception as e: print("indexnow failed", str(e)[:100])
@@ -53,8 +62,8 @@ def main():
     # Catalog edits made in the Studio reach the site only through a build (data/overrides.json is pulled at build time).
     since = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=13)).isoformat(timespec="seconds").replace("+00:00", "Z")
     edited = query('count(*[_type in ["product", "stone", "shape"] && _updatedAt > $since])', {"since": since})
-    if edited and os.environ.get("VERCEL_DEPLOY_HOOK") and not dry:
-        try: urllib.request.urlopen(urllib.request.Request(os.environ["VERCEL_DEPLOY_HOOK"], method="POST"), timeout=60); print(f"redeploy triggered: {edited} catalog documents edited since {since[:16]}")
+    if edited and _local_env("VERCEL_DEPLOY_HOOK") and not dry:
+        try: urllib.request.urlopen(urllib.request.Request(_local_env("VERCEL_DEPLOY_HOOK"), method="POST"), timeout=60); print(f"redeploy triggered: {edited} catalog documents edited since {since[:16]}")
         except Exception as e: print("redeploy failed", str(e)[:100])
     left = query('count(*[_type == "post" && _id in path("drafts.**") && defined(scheduledFor) && coalesce(reviewStatus, "auto") == "auto"])')
     print("scheduled drafts left:", left)
