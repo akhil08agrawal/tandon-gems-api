@@ -17,7 +17,7 @@ drains (schedule_bank.py assumes two slots a day). The live document keeps the c
 """
 import json, os, sys, datetime, urllib.request, urllib.error, urllib.parse
 PROJECT = os.environ.get("SANITY_PROJECT_ID", "68f1un3b"); DATASET = os.environ.get("SANITY_DATASET", "production"); API = "v2025-09-01"
-BASE = f"https://{PROJECT}.api.sanity.io/{API}"; SITE = os.environ.get("SITE_URL", "https://tandon-gems.vercel.app")
+BASE = f"https://{PROJECT}.api.sanity.io/{API}"; SITE = os.environ.get("SITE_URL", "https://tandongems.us")  # the live host, for IndexNow and the group message; tandongems.com after the switch
 def _local_env(name):
     """On Render the value is an env var; for local dry runs fall back to site/.env.local."""
     v = os.environ.get(name)
