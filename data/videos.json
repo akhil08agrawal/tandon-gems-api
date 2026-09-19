@@ -1,62 +1,46 @@
 {
-  "generatedAt": "2026-09-19T18:39:35+00:00",
-  "policyVersion": 1,
+  "generatedAt": "2026-09-19T21:37:21+00:00",
+  "policyVersion": 2,
   "stones": {
     "sapphire": {
-      "slug": "sapphire-gs2468-landscape",
-      "title": "Sapphire photo showcase (landscape)",
+      "slug": "sapphire-gs2468-close-up",
+      "title": "Sapphire \u00b7 a closer look",
       "subject": "Sapphire",
-      "src": "/video/authentic/sapphire-gs2468-landscape-b48c5f434ad5.mp4",
-      "poster": "/video/authentic/sapphire-gs2468-landscape-69f3db87536a.jpg",
-      "duration": 15.0,
+      "src": "/video/reviewed-motion/sapphire-gs2468-close-up-a12bd60b43ac.mp4",
+      "poster": "/video/reviewed-motion/sapphire-gs2468-close-up-c2c9d0afa83b.jpg",
+      "duration": 5.0,
       "width": 1920,
       "height": 1080,
       "audio": false,
-      "model": "original",
+      "model": "fal-ai/kling-video/v3/pro/image-to-video",
       "kind": "stone",
       "provenance": {
-        "kind": "original-photo-sequence",
+        "kind": "reviewed-product-motion",
+        "model": "fal-ai/kling-video/v3/pro/image-to-video",
+        "requestId": "01a0bb96-979f-7f31-a6be-3fb7c3209ab4",
         "jewelAppearancePreserved": true,
-        "approvedBy": "Codex visual review",
+        "approvedBy": "Codex visual comparison with independent second review",
         "approvedAt": "2026-09-19",
         "sourceReferences": [
-          "GS2468: Tandon Gems Pictures/Banner pictures/GS2468a.jpg (original SHA-256 a14da14941a4690c27bc0d2e10621d4bbcae5e90f76d90fc1c3fa4205cece524; derivative /img/authentic/GS2468-a14da14941a4-v1.jpg, SHA-256 7584df581814defe3295e3ac32b71fe7f5ebe5bc7f8dfd168977c56b7aeff788)",
-          "GS2468: Tandon Gems Pictures/Banner pictures/GS2468b.jpg (original SHA-256 2ac9e6cde992f67606bafd3c9e2c3abfb5d9b09b60e222b1e3e7f9b2d9f67a13; derivative /img/authentic/GS2468-2ac9e6cde992-v1.jpg, SHA-256 6fa179e4b241eae099d2f2646768f41600254c27840a71d86e8746bab8ebd0f1)"
+          "GS2468: original source-matched catalog photograph /img/authentic/GS2468-a14da14941a4-v1.jpg",
+          "Start frame: docs/sapphire-motion/source-frame-wide.png; SHA-256 c2c9d0afa83bba15125e4de89e698a7243a06ee8c864a5aee863b4be563eb9c8; complete original at 85% scale on white",
+          "End frame: docs/sapphire-motion/source-frame.png; SHA-256 7187564b3e83a2ae936fc5fd65b2180502da4fff83a4aaaa633f090e2bb0a125; complete source at original pixel dimensions",
+          "Visual comparisons: docs/sapphire-motion/kling-push-in-v3/review/visual-review.md",
+          "Web preparation: 1920x1080 H.264 CRF18, 24fps, 121 frames, +faststart; no resize, grading or geometry edits. All-frame SSIM versus generated master: 0.998734. This checks encoding quality, not identity."
+        ],
+        "sourceImages": [
+          {
+            "sku": "GS2468",
+            "image": "/img/authentic/GS2468-a14da14941a4-v1.jpg",
+            "sha256": "7584df581814defe3295e3ac32b71fe7f5ebe5bc7f8dfd168977c56b7aeff788"
+          }
         ]
       },
-      "sourceSha256": "b48c5f434ad5030b13331fea4c30d224581ca81d3a8479aee2183ca089b0e288",
-      "posterSha256": "69f3db87536a9e27e9170f5d52400723723543573f2d81e1e93844affed68072",
-      "publishedSha256": "b48c5f434ad5030b13331fea4c30d224581ca81d3a8479aee2183ca089b0e288",
+      "sourceSha256": "a12bd60b43ac338f30ec689774ecff04bb9742dd708fc101611bab50e16af059",
+      "posterSha256": "c2c9d0afa83bba15125e4de89e698a7243a06ee8c864a5aee863b4be563eb9c8",
+      "publishedSha256": "a12bd60b43ac338f30ec689774ecff04bb9742dd708fc101611bab50e16af059",
       "stoneSlug": "sapphire"
     }
   },
-  "films": [
-    {
-      "slug": "sapphire-gs2468-portrait",
-      "title": "Sapphire photo showcase (portrait)",
-      "subject": "Sapphire",
-      "src": "/video/authentic/sapphire-gs2468-portrait-49e2a1ed44a2.mp4",
-      "poster": "/video/authentic/sapphire-gs2468-portrait-d4c697dc0fa4.jpg",
-      "duration": 15.0,
-      "width": 1080,
-      "height": 1920,
-      "audio": false,
-      "model": "original",
-      "kind": "social",
-      "provenance": {
-        "kind": "original-photo-sequence",
-        "jewelAppearancePreserved": true,
-        "approvedBy": "Codex visual review",
-        "approvedAt": "2026-09-19",
-        "sourceReferences": [
-          "GS2468: Tandon Gems Pictures/Banner pictures/GS2468a.jpg (original SHA-256 a14da14941a4690c27bc0d2e10621d4bbcae5e90f76d90fc1c3fa4205cece524; derivative /img/authentic/GS2468-a14da14941a4-v1.jpg, SHA-256 7584df581814defe3295e3ac32b71fe7f5ebe5bc7f8dfd168977c56b7aeff788)",
-          "GS2468: Tandon Gems Pictures/Banner pictures/GS2468b.jpg (original SHA-256 2ac9e6cde992f67606bafd3c9e2c3abfb5d9b09b60e222b1e3e7f9b2d9f67a13; derivative /img/authentic/GS2468-2ac9e6cde992-v1.jpg, SHA-256 6fa179e4b241eae099d2f2646768f41600254c27840a71d86e8746bab8ebd0f1)"
-        ]
-      },
-      "sourceSha256": "49e2a1ed44a2c451a3bd12826f8890ee939186801dc8f43f2da4f8d6594a7751",
-      "posterSha256": "d4c697dc0fa41a52d49387d6c6a38fa187f801cc9a699e3c4e795ff6480600c0",
-      "publishedSha256": "49e2a1ed44a2c451a3bd12826f8890ee939186801dc8f43f2da4f8d6594a7751",
-      "stoneSlug": "sapphire"
-    }
-  ]
+  "films": []
 }
