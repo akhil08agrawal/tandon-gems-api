@@ -40,5 +40,215 @@
     "sourceImage": "/img/authentic/GS218-b99e449e0d0a-v1.jpg",
     "width": 1400,
     "height": 1400
+  },
+  "GS1121": {
+    "image": "/img/presentation/GS1121-b38c3a72023c-v1.webp",
+    "sourceImage": "/img/authentic/GS1121-ff57507fded4-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS178": {
+    "image": "/img/presentation/GS178-8278a407e49b-v1.webp",
+    "sourceImage": "/img/authentic/GS178-d2201c08630e-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS2460": {
+    "image": "/img/presentation/GS2460-3528f04c9909-v1.webp",
+    "sourceImage": "/img/authentic/GS2460-8785c612a035-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS2463": {
+    "image": "/img/presentation/GS2463-996b00091fda-v1.webp",
+    "sourceImage": "/img/authentic/GS2463-edaaea088b60-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS421": {
+    "image": "/img/presentation/GS421-e43f2d447d8f-v1.webp",
+    "sourceImage": "/img/authentic/GS421-838e6d42320f-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS441": {
+    "image": "/img/presentation/GS441-425299383dbf-v1.webp",
+    "sourceImage": "/img/authentic/GS441-ad90e1148283-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS456": {
+    "image": "/img/presentation/GS456-af2da81f25fe-v1.webp",
+    "sourceImage": "/img/authentic/GS456-9f80e6f579f5-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS470": {
+    "image": "/img/presentation/GS470-b64848150ed9-v1.webp",
+    "sourceImage": "/img/authentic/GS470-5b9018a9c1be-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS488": {
+    "image": "/img/presentation/GS488-d1356ff48d1c-v1.webp",
+    "sourceImage": "/img/authentic/GS488-94d645c4e93d-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS500": {
+    "image": "/img/presentation/GS500-b43979eeb86f-v1.webp",
+    "sourceImage": "/img/authentic/GS500-7726a54776ce-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS504": {
+    "image": "/img/presentation/GS504-091544382c8a-v1.webp",
+    "sourceImage": "/img/authentic/GS504-1cbb239bf9cf-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS517": {
+    "image": "/img/presentation/GS517-613a7d5fb13d-v1.webp",
+    "sourceImage": "/img/authentic/GS517-80f58c3a027e-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS540": {
+    "image": "/img/presentation/GS540-8663e4ac4bcd-v1.webp",
+    "sourceImage": "/img/authentic/GS540-3f3e35b328e2-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS578": {
+    "image": "/img/presentation/GS578-1549fad08917-v1.webp",
+    "sourceImage": "/img/authentic/GS578-7321f4022c6d-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS580": {
+    "image": "/img/presentation/GS580-40d2332ad137-v1.webp",
+    "sourceImage": "/img/authentic/GS580-02b4fd13c1e4-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS585": {
+    "image": "/img/presentation/GS585-126a4c085c67-v1.webp",
+    "sourceImage": "/img/authentic/GS585-4b5121fa1bc8-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS590": {
+    "image": "/img/presentation/GS590-3ff801d727d6-v1.webp",
+    "sourceImage": "/img/authentic/GS590-4643965f55e2-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS591": {
+    "image": "/img/presentation/GS591-d3635de5e12c-v1.webp",
+    "sourceImage": "/img/authentic/GS591-cd044a8254bc-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS592": {
+    "image": "/img/presentation/GS592-94ca77c75be8-v1.webp",
+    "sourceImage": "/img/authentic/GS592-3e08830bd17a-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS600": {
+    "image": "/img/presentation/GS600-88285ad8767a-v1.webp",
+    "sourceImage": "/img/authentic/GS600-0415d7e2b89a-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS607": {
+    "image": "/img/presentation/GS607-8f06edd16873-v1.webp",
+    "sourceImage": "/img/authentic/GS607-e3479e876669-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS615": {
+    "image": "/img/presentation/GS615-7dd442159d35-v1.webp",
+    "sourceImage": "/img/authentic/GS615-f5df688244e8-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS618": {
+    "image": "/img/presentation/GS618-7d0b8fa9f403-v1.webp",
+    "sourceImage": "/img/authentic/GS618-53a25d8b1c90-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS621": {
+    "image": "/img/presentation/GS621-5ccc0bba36d8-v1.webp",
+    "sourceImage": "/img/authentic/GS621-4deb7c9a4a0c-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS624": {
+    "image": "/img/presentation/GS624-1467b2fb847b-v1.webp",
+    "sourceImage": "/img/authentic/GS624-359f31c79117-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS644": {
+    "image": "/img/presentation/GS644-6b09eba3587e-v1.webp",
+    "sourceImage": "/img/authentic/GS644-f9c9779a1e83-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS645": {
+    "image": "/img/presentation/GS645-ba87f59379f1-v1.webp",
+    "sourceImage": "/img/authentic/GS645-f074e2e09067-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS648": {
+    "image": "/img/presentation/GS648-73529bff0e8b-v1.webp",
+    "sourceImage": "/img/authentic/GS648-632275c35b69-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS661": {
+    "image": "/img/presentation/GS661-b575d81ae612-v1.webp",
+    "sourceImage": "/img/authentic/GS661-22660dd199d7-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS662": {
+    "image": "/img/presentation/GS662-8cbbb8b73ceb-v1.webp",
+    "sourceImage": "/img/authentic/GS662-1d65a93bade2-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS664": {
+    "image": "/img/presentation/GS664-6bafee5da28c-v1.webp",
+    "sourceImage": "/img/authentic/GS664-3cad832419dd-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS681": {
+    "image": "/img/presentation/GS681-bcd6775bbfdb-v1.webp",
+    "sourceImage": "/img/authentic/GS681-59d2810ad022-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS684": {
+    "image": "/img/presentation/GS684-8ec1ba586043-v1.webp",
+    "sourceImage": "/img/authentic/GS684-d9da9cce79af-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS687": {
+    "image": "/img/presentation/GS687-a8c410418bd6-v1.webp",
+    "sourceImage": "/img/authentic/GS687-52d58db1b325-v1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "GS690": {
+    "image": "/img/presentation/GS690-f3ff2437f5a0-v1.webp",
+    "sourceImage": "/img/authentic/GS690-d36bf53ad5f8-v1.jpg",
+    "width": 1400,
+    "height": 1400
   }
 }
