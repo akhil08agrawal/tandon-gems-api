@@ -43,7 +43,6 @@
    "apatite",
    "aquamarine",
    "black-onyx-and-black-spinel",
-   "blue-and-lavender-chalcedony",
    "citrine-and-lemon-quartz",
    "hessonite-and-spessartite-garnet",
    "iolite",
@@ -79,7 +78,6 @@
    "black-onyx-and-black-spinel",
    "blue-and-lavender-chalcedony",
    "bumble-bee-jasper",
-   "chocolate-and-brown-ethiopian-opal",
    "chrome-diopside",
    "chrysocolla-and-shattuckite",
    "chrysoprase",
@@ -123,7 +121,6 @@
    "black-onyx-and-black-spinel",
    "blue-and-lavender-chalcedony",
    "bumble-bee-jasper",
-   "chocolate-and-brown-ethiopian-opal",
    "chrysoprase",
    "dendrite-opal",
    "emerald",
@@ -136,12 +133,10 @@
    "pink-opal",
    "pyrite",
    "rhodochrosite",
-   "rhodolite-garnet",
    "rose-quartz",
    "ruby-zoisite",
    "sapphire",
    "smoky-and-cognac-quartz",
-   "strawberry-quartz-and-red-aventurine",
    "sunstone",
    "tourmaline",
    "turquoise"
@@ -188,10 +183,8 @@
    "aquamarine",
    "black-onyx-and-black-spinel",
    "bumble-bee-jasper",
-   "chocolate-and-brown-ethiopian-opal",
    "chrysoprase",
    "citrine-and-lemon-quartz",
-   "crystal-quartz-and-golden-rutilated-quartz",
    "dendrite-opal",
    "gray-silverite",
    "green-onyx-and-green-aventurine",
@@ -228,6 +221,7 @@
    "aquamarine",
    "black-onyx-and-black-spinel",
    "bumble-bee-jasper",
+   "crystal-quartz-and-golden-rutilated-quartz",
    "dendrite-opal",
    "gray-silverite",
    "green-onyx-and-green-aventurine",
@@ -238,8 +232,7 @@
    "pink-opal",
    "pyrite",
    "rainbow-moonstone",
-   "ruby-zoisite",
-   "strawberry-quartz-and-red-aventurine"
+   "ruby-zoisite"
   ]
  },
  {
@@ -263,7 +256,6 @@
    "black-onyx-and-black-spinel",
    "bumble-bee-jasper",
    "carnelian",
-   "chocolate-and-brown-ethiopian-opal",
    "chrysoprase",
    "citrine-and-lemon-quartz",
    "dendrite-opal",
@@ -298,9 +290,7 @@
    "amethyst",
    "aquamarine",
    "black-onyx-and-black-spinel",
-   "blue-and-lavender-chalcedony",
    "bumble-bee-jasper",
-   "chocolate-and-brown-ethiopian-opal",
    "dendrite-opal",
    "gray-silverite",
    "green-onyx-and-green-aventurine",
@@ -331,7 +321,6 @@
    "amazonite",
    "aquamarine",
    "black-onyx-and-black-spinel",
-   "blue-and-lavender-chalcedony",
    "bumble-bee-jasper",
    "dendrite-opal",
    "gray-silverite",
@@ -341,8 +330,7 @@
    "lapis-lazuli",
    "peach-gray-chocolate-and-golden-shine-moonstone",
    "pyrite",
-   "ruby-zoisite",
-   "strawberry-quartz-and-red-aventurine"
+   "ruby-zoisite"
   ]
  },
  {
@@ -400,8 +388,7 @@
    "green-onyx-and-green-aventurine",
    "k2-granite",
    "peach-gray-chocolate-and-golden-shine-moonstone",
-   "ruby-zoisite",
-   "strawberry-quartz-and-red-aventurine"
+   "ruby-zoisite"
   ]
  },
  {
@@ -437,8 +424,8 @@
   ],
   "productCount": 15,
   "stones": [
-   "chocolate-and-brown-ethiopian-opal",
    "gray-silverite",
+   "peach-gray-chocolate-and-golden-shine-moonstone",
    "sapphire"
   ]
  },
@@ -470,7 +457,6 @@
    "ruby",
    "ruby-zoisite",
    "sapphire",
-   "strawberry-quartz-and-red-aventurine",
    "tourmaline",
    "turquoise"
   ]
