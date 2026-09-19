@@ -18,6 +18,6 @@ services:
       - key: OPENAI_MODEL
         value: gpt-4.1-mini
       - key: CORS_ORIGINS
-        value: "*"
+        value: "https://tandongems.us,https://www.tandongems.us,https://tandon-gems.vercel.app,https://tandongems.com,https://www.tandongems.com"
       - key: OPENAI_API_KEY
         sync: false

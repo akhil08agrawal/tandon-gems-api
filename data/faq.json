@@ -4,7 +4,7 @@
   "items": [
    {
     "q": "How do I buy a strand?",
-    "a": "Every listing shows the price per strand. Message us on WhatsApp or email with the SKU, or come to the booth at any show on the Shows page. We confirm what is in stock, add shipping to your address, and send an invoice you can pay online. There is no cart on this site yet."
+    "a": "Message us on WhatsApp or email with the SKU, or visit us at a show. We confirm current availability, price, selling unit and shipping before sending an invoice. Catalog photographs and historical product records do not establish current stock."
    },
    {
     "q": "Do you offer free shipping?",
@@ -33,7 +33,7 @@
   "items": [
    {
     "q": "Are your beads natural gemstone?",
-    "a": "Yes. Our strands are natural gemstone cut in Jaipur, checked strand by strand before they are listed. Every listing states the stone, shape, size and cut."
+    "a": "Each listing identifies the material, shape, size and cut from our product records. Ask us to confirm the specific strand, material and any treatment details before ordering."
    },
    {
     "q": "What is the difference between precious and semi-precious?",
@@ -41,11 +41,11 @@
    },
    {
     "q": "How are sizes measured?",
-    "a": "Rondelles and rounds are given by diameter. Drops, pears, ovals and bars are width by length, in millimeters. Natural stones vary, so a 4mm strand will contain beads from roughly 3.5 to 4.5mm."
+    "a": "Measurements are recorded in millimeters. An x separates dimensions, such as width and length; a hyphen indicates a range of sizes. Ask us to confirm the actual strand's measurements before ordering."
    },
    {
     "q": "How long is a strand?",
-    "a": "Most faceted strands are 8 inches; larger shapes and smooth strands are usually 13 to 16 inches. The exact length and approximate bead count are on each listing where we have measured them."
+    "a": "Strand lengths are shown where recorded in our product details. Confirm the exact strand length and selling unit before ordering."
    }
   ]
  },
@@ -58,7 +58,7 @@
    },
    {
     "q": "Will the color fade?",
-    "a": "Kunzite, amethyst and some topaz can fade with long sun exposure. Hydrophane Ethiopian opal changes temporarily when it absorbs water. Everything else in our stock is stable."
+    "a": "Kunzite, amethyst and some topaz can fade with long sun exposure. Hydrophane Ethiopian opal changes temporarily when it absorbs water. Ask us for care guidance for the specific material you are considering."
    }
   ]
  },

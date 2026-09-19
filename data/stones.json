@@ -28,8 +28,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "blue-sapphire",
-  "productCount": 90,
+  "imageSlug": "",
+  "image": "/img/authentic/GS2468-a14da14941a4-v1.jpg",
+  "imageSourceSku": "GS2468",
+  "productCount": 87,
   "shapesCarried": [
    "heart",
    "heishi",
@@ -66,9 +68,12 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "ruby",
-  "productCount": 4,
+  "imageSlug": "",
+  "image": "/img/authentic/GS2463-edaaea088b60-v1.jpg",
+  "imageSourceSku": "GS2463",
+  "productCount": 8,
   "shapesCarried": [
+   "nugget",
    "rondelle",
    "teardrop"
   ]
@@ -102,8 +107,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "beryl",
-  "imageSlug": "emerald",
-  "productCount": 10,
+  "imageSlug": "",
+  "image": "/img/authentic/GS2460-8785c612a035-v1.jpg",
+  "imageSourceSku": "GS2460",
+  "productCount": 12,
   "shapesCarried": [
    "heart",
    "pear",
@@ -139,7 +146,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "zoisite",
-  "imageSlug": "tanzanite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS607-e3479e876669-v1.jpg",
+  "imageSourceSku": "GS607",
   "productCount": 1,
   "shapesCarried": [
    "teardrop"
@@ -174,13 +183,11 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "opal",
-  "imageSlug": "ethiopian-opal",
-  "productCount": 3,
-  "shapesCarried": [
-   "marquise",
-   "nugget",
-   "pear"
-  ]
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
+  "productCount": 0,
+  "shapesCarried": []
  },
  "black-ethiopian-opal-smoked": {
   "slug": "black-ethiopian-opal-smoked",
@@ -209,7 +216,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "black-ethiopian-opal",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -242,7 +251,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "opal",
-  "imageSlug": "ethiopian-opal",
+  "imageSlug": "",
+  "image": "/img/authentic/GS700-bb7af3e5b8bc-v1.jpg",
+  "imageSourceSku": "GS700",
   "productCount": 11,
   "shapesCarried": [
    "arrowhead",
@@ -282,7 +293,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "opal",
-  "imageSlug": "ethiopian-opal",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -315,15 +328,14 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "tourmaline",
-  "imageSlug": "watermelon-tourmaline",
-  "productCount": 12,
+  "imageSlug": "",
+  "image": "/img/authentic/GS1121-ff57507fded4-v1.jpg",
+  "imageSourceSku": "GS1121",
+  "productCount": 5,
   "shapesCarried": [
    "heart",
    "nugget",
-   "pear",
-   "pyramid",
-   "rondelle",
-   "teardrop"
+   "pear"
   ]
  },
  "london-blue-topaz": {
@@ -355,7 +367,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "topaz",
-  "imageSlug": "london-blue-topaz",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -388,7 +402,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "topaz",
-  "imageSlug": "swiss-blue-topaz",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -421,7 +437,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "zircon",
-  "imageSlug": "zircon",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -454,7 +472,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "sphene",
-  "imageSlug": "kyanite",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -487,7 +507,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "spodumene",
-  "imageSlug": "kunzite",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -520,9 +542,13 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "diopside",
-  "imageSlug": "peridot",
-  "productCount": 0,
-  "shapesCarried": []
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
+  "productCount": 1,
+  "shapesCarried": [
+   "pear"
+  ]
  },
  "aquamarine": {
   "slug": "aquamarine",
@@ -553,7 +579,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "beryl",
-  "imageSlug": "aquamarine",
+  "imageSlug": "",
+  "image": "/img/authentic/GS643-f891b9520e0b-v1.jpg",
+  "imageSourceSku": "GS643",
   "productCount": 21,
   "shapesCarried": [
    "arrowhead",
@@ -598,7 +626,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "beryl",
-  "imageSlug": "rose-quartz",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -631,7 +661,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "amethyst",
+  "imageSlug": "",
+  "image": "/img/authentic/GS592-3e08830bd17a-v1.jpg",
+  "imageSourceSku": "GS592",
   "productCount": 8,
   "shapesCarried": [
    "arrowhead",
@@ -671,7 +703,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "amethyst",
+  "imageSlug": "",
+  "image": "/img/authentic/GS644-f9c9779a1e83-v1.jpg",
+  "imageSourceSku": "GS644",
   "productCount": 1,
   "shapesCarried": [
    "oval"
@@ -706,7 +740,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "ametrine",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -739,7 +775,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "peridot",
+  "imageSlug": "",
+  "image": "/img/authentic/GS421-838e6d42320f-v1.jpg",
+  "imageSourceSku": "GS421",
   "productCount": 4,
   "shapesCarried": [
    "arrowhead",
@@ -776,7 +814,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "citrine",
+  "imageSlug": "",
+  "image": "/img/authentic/GS580-02b4fd13c1e4-v1.jpg",
+  "imageSourceSku": "GS580",
   "productCount": 3,
   "shapesCarried": [
    "pyramid",
@@ -813,7 +853,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "rose-quartz",
+  "imageSlug": "",
+  "image": "/img/authentic/GS648-632275c35b69-v1.jpg",
+  "imageSourceSku": "GS648",
   "productCount": 7,
   "shapesCarried": [
    "heart",
@@ -853,7 +895,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "hessonite-garnet",
+  "imageSlug": "",
+  "image": "/img/authentic/GS624-359f31c79117-v1.jpg",
+  "imageSourceSku": "GS624",
   "productCount": 2,
   "shapesCarried": [
    "heart",
@@ -889,10 +933,11 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "opal",
-  "imageSlug": "rainbow-moonstone",
-  "productCount": 7,
+  "imageSlug": "",
+  "image": "/img/authentic/GS459-8e52b8617f8a-v1.jpg",
+  "imageSourceSku": "GS459",
+  "productCount": 6,
   "shapesCarried": [
-   "heart",
    "pear",
    "pyramid"
   ]
@@ -926,7 +971,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "quartz",
-  "imageSlug": "strawberry-quartz",
+  "imageSlug": "",
+  "image": "/img/authentic/GS658-1d487fc5a547-v1.jpg",
+  "imageSourceSku": "GS658",
   "productCount": 7,
   "shapesCarried": [
    "diamond-cut",
@@ -966,7 +1013,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "feldspar",
-  "imageSlug": "rainbow-moonstone",
+  "imageSlug": "",
+  "image": "/img/authentic/GS621-4deb7c9a4a0c-v1.jpg",
+  "imageSourceSku": "GS621",
   "productCount": 4,
   "shapesCarried": [
    "marquise",
@@ -1003,8 +1052,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "feldspar",
-  "imageSlug": "peach-moonstone",
-  "productCount": 57,
+  "imageSlug": "",
+  "image": "/img/authentic/GS686-ec27ff10b798-v1.jpg",
+  "imageSourceSku": "GS686",
+  "productCount": 56,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
@@ -1048,7 +1099,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "feldspar",
-  "imageSlug": "labradorite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS615-f5df688244e8-v1.jpg",
+  "imageSourceSku": "GS615",
   "productCount": 10,
   "shapesCarried": [
    "arrowhead",
@@ -1089,8 +1142,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "labradorite",
-  "productCount": 20,
+  "imageSlug": "",
+  "image": "/img/authentic/GS701-d1990cf01ed3-v1.jpg",
+  "imageSourceSku": "GS701",
+  "productCount": 21,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
@@ -1132,7 +1187,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "feldspar",
-  "imageSlug": "sunstone",
+  "imageSlug": "",
+  "image": "/img/authentic/GS540-3f3e35b328e2-v1.jpg",
+  "imageSourceSku": "GS540",
   "productCount": 3,
   "shapesCarried": [
    "heart",
@@ -1168,7 +1225,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "feldspar",
-  "imageSlug": "amazonite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS649-f9a1d7f6412c-v1.jpg",
+  "imageSourceSku": "GS649",
   "productCount": 32,
   "shapesCarried": [
    "arrowhead",
@@ -1213,7 +1272,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "garnet",
-  "imageSlug": "rhodolite-garnet",
+  "imageSlug": "",
+  "image": "/img/authentic/GS591-cd044a8254bc-v1.jpg",
+  "imageSourceSku": "GS591",
   "productCount": 5,
   "shapesCarried": [
    "heart",
@@ -1249,7 +1310,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "garnet",
-  "imageSlug": "rhodolite-garnet",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -1282,7 +1345,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "garnet",
-  "imageSlug": "hessonite-garnet",
+  "imageSlug": "",
+  "image": "/img/authentic/GS600-0415d7e2b89a-v1.jpg",
+  "imageSourceSku": "GS600",
   "productCount": 3,
   "shapesCarried": [
    "arrowhead",
@@ -1319,7 +1384,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "olivine",
-  "imageSlug": "peridot",
+  "imageSlug": "",
+  "image": "/img/authentic/GS590-da093e0541a8-v1.jpg",
+  "imageSourceSku": "GS590",
   "productCount": 1,
   "shapesCarried": [
    "teardrop"
@@ -1354,7 +1421,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "apatite",
-  "imageSlug": "apatite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS585-4b5121fa1bc8-v1.jpg",
+  "imageSourceSku": "GS585",
   "productCount": 1,
   "shapesCarried": [
    "teardrop"
@@ -1389,7 +1458,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "cordierite",
-  "imageSlug": "iolite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS661-22660dd199d7-v1.jpg",
+  "imageSourceSku": "GS661",
   "productCount": 8,
   "shapesCarried": [
    "heart",
@@ -1429,9 +1500,13 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "kyanite",
-  "imageSlug": "kyanite",
-  "productCount": 0,
-  "shapesCarried": []
+  "imageSlug": "",
+  "image": "/img/authentic/GS690-d36bf53ad5f8-v1.jpg",
+  "imageSourceSku": "GS690",
+  "productCount": 1,
+  "shapesCarried": [
+   "rectangle"
+  ]
  },
  "larimar": {
   "slug": "larimar",
@@ -1462,7 +1537,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "pectolite",
-  "imageSlug": "larimar",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -1494,7 +1571,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "",
-  "imageSlug": "turquoise",
+  "imageSlug": "",
+  "image": "/img/authentic/GS684-d9da9cce79af-v1.jpg",
+  "imageSourceSku": "GS684",
   "productCount": 4,
   "shapesCarried": [
    "heart",
@@ -1531,7 +1610,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "lapis",
-  "imageSlug": "lapis-lazuli",
+  "imageSlug": "",
+  "image": "/img/authentic/GS664-3cad832419dd-v1.jpg",
+  "imageSourceSku": "GS664",
   "productCount": 14,
   "shapesCarried": [
    "arrowhead",
@@ -1574,7 +1655,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "chrysocolla",
-  "imageSlug": "turquoise",
+  "imageSlug": "",
+  "image": "/img/authentic/GS441-ad90e1148283-v1.jpg",
+  "imageSourceSku": "GS441",
   "productCount": 1,
   "shapesCarried": [
    "pear"
@@ -1609,7 +1692,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "fluorite",
-  "imageSlug": "fluorite",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -1642,7 +1727,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "clinochlore",
-  "imageSlug": "chrysoprase",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -1675,7 +1762,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "charoite",
-  "imageSlug": "amethyst",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -1708,7 +1797,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "rhodochrosite",
-  "imageSlug": "rhodochrosite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS504-1cbb239bf9cf-v1.jpg",
+  "imageSourceSku": "GS504",
   "productCount": 4,
   "shapesCarried": [
    "heart",
@@ -1743,7 +1834,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "pink-opal",
+  "imageSlug": "",
+  "image": "/img/authentic/GS645-f074e2e09067-v1.jpg",
+  "imageSourceSku": "GS645",
   "productCount": 4,
   "shapesCarried": [
    "heart",
@@ -1780,7 +1873,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "opal",
-  "imageSlug": "peruvian-blue-opal",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -1812,8 +1907,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "opal",
-  "imageSlug": "dendrite-opal",
-  "productCount": 19,
+  "imageSlug": "",
+  "image": "/img/authentic/GS470-5b9018a9c1be-v1.jpg",
+  "imageSourceSku": "GS470",
+  "productCount": 18,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
@@ -1854,7 +1951,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "chalcedony",
-  "imageSlug": "chrysoprase",
+  "imageSlug": "",
+  "image": "/img/authentic/GS517-80f58c3a027e-v1.jpg",
+  "imageSourceSku": "GS517",
   "productCount": 5,
   "shapesCarried": [
    "heart",
@@ -1891,14 +1990,15 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "peruvian-blue-opal",
-  "productCount": 6,
+  "imageSlug": "",
+  "image": "/img/authentic/GS618-53a25d8b1c90-v1.jpg",
+  "imageSourceSku": "GS618",
+  "productCount": 5,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
    "heart",
    "pear",
-   "rectangle",
    "teardrop"
   ]
  },
@@ -1930,10 +2030,11 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "chalcedony",
-  "imageSlug": "carnelian",
-  "productCount": 2,
+  "imageSlug": "",
+  "image": "/img/authentic/GS178-d2201c08630e-v1.jpg",
+  "imageSourceSku": "GS178",
+  "productCount": 1,
   "shapesCarried": [
-   "pear",
    "trilliant"
   ]
  },
@@ -1965,7 +2066,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "black-spinel",
+  "imageSlug": "",
+  "image": "/img/authentic/GS626-f4da1e23c538-v1.jpg",
+  "imageSourceSku": "GS626",
   "productCount": 20,
   "shapesCarried": [
    "arrowhead",
@@ -2007,13 +2110,16 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "chrysoprase",
-  "productCount": 13,
+  "imageSlug": "",
+  "image": "/img/authentic/GS681-59d2810ad022-v1.jpg",
+  "imageSourceSku": "GS681",
+  "productCount": 14,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
    "half-moon",
    "heart",
+   "marquise",
    "nugget",
    "pear",
    "pyramid",
@@ -2049,8 +2155,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "calcite/sulfur",
-  "imageSlug": "bumble-bee-jasper",
-  "productCount": 9,
+  "imageSlug": "",
+  "image": "/img/authentic/GS500-7726a54776ce-v1.jpg",
+  "imageSourceSku": "GS500",
+  "productCount": 8,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
@@ -2089,7 +2197,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "granite/azurite",
-  "imageSlug": "k2-granite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS662-1d65a93bade2-v1.jpg",
+  "imageSourceSku": "GS662",
   "productCount": 12,
   "shapesCarried": [
    "diamond-cut",
@@ -2132,7 +2242,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "pyrite",
-  "imageSlug": "pyrite",
+  "imageSlug": "",
+  "image": "/img/authentic/GS488-94d645c4e93d-v1.jpg",
+  "imageSourceSku": "GS488",
   "productCount": 8,
   "shapesCarried": [
    "diamond-cut",
@@ -2171,8 +2283,10 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "ruby-zoisite",
-  "productCount": 20,
+  "imageSlug": "",
+  "image": "/img/authentic/GS687-52d58db1b325-v1.jpg",
+  "imageSourceSku": "GS687",
+  "productCount": 17,
   "shapesCarried": [
    "arrowhead",
    "diamond-cut",
@@ -2215,7 +2329,9 @@
   "isDisclosureEntry": false,
   "isPearl": true,
   "family": "pearl",
-  "imageSlug": "freshwater-round-white-pearls",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -2245,6 +2361,8 @@
   "isPearl": false,
   "family": "imitation/treated",
   "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  },
@@ -2276,7 +2394,9 @@
   "isDisclosureEntry": false,
   "isPearl": false,
   "family": "corundum",
-  "imageSlug": "multi-sapphire",
+  "imageSlug": "",
+  "image": "",
+  "imageSourceSku": "",
   "productCount": 0,
   "shapesCarried": []
  }

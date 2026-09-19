@@ -14,12 +14,11 @@
    "tyre",
    "tire"
   ],
-  "productCount": 40,
+  "productCount": 37,
   "stones": [
    "emerald",
    "ruby",
-   "sapphire",
-   "tourmaline"
+   "sapphire"
   ]
  },
  {
@@ -37,7 +36,7 @@
    "drop",
    "drops"
   ],
-  "productCount": 56,
+  "productCount": 60,
   "stones": [
    "amazonite",
    "amethyst",
@@ -55,8 +54,7 @@
    "ruby",
    "sapphire",
    "strawberry-quartz-and-red-aventurine",
-   "tanzanite",
-   "tourmaline"
+   "tanzanite"
   ]
  },
  {
@@ -74,21 +72,20 @@
    "briolettes",
    "onion"
   ],
-  "productCount": 93,
+  "productCount": 96,
   "stones": [
    "amazonite",
    "aquamarine",
    "black-onyx-and-black-spinel",
    "blue-and-lavender-chalcedony",
    "bumble-bee-jasper",
-   "carnelian",
    "chocolate-and-brown-ethiopian-opal",
+   "chrome-diopside",
    "chrysocolla-and-shattuckite",
    "chrysoprase",
    "crystal-quartz-and-golden-rutilated-quartz",
    "dendrite-opal",
    "emerald",
-   "ethiopian-welo-opal-white-and-crystal",
    "gray-silverite",
    "green-onyx-and-green-aventurine",
    "iolite",
@@ -118,7 +115,7 @@
    "heart",
    "hearts"
   ],
-  "productCount": 51,
+  "productCount": 50,
   "stones": [
    "amazonite",
    "amethyst",
@@ -128,7 +125,6 @@
    "bumble-bee-jasper",
    "chocolate-and-brown-ethiopian-opal",
    "chrysoprase",
-   "crystal-quartz-and-golden-rutilated-quartz",
    "dendrite-opal",
    "emerald",
    "gray-silverite",
@@ -185,7 +181,7 @@
    "pyramid",
    "pyramids"
   ],
-  "productCount": 37,
+  "productCount": 36,
   "stones": [
    "amazonite",
    "amethyst",
@@ -211,8 +207,7 @@
    "rhodochrosite",
    "rose-quartz",
    "ruby-zoisite",
-   "sunstone",
-   "tourmaline"
+   "sunstone"
   ]
  },
  {
@@ -234,8 +229,8 @@
    "black-onyx-and-black-spinel",
    "bumble-bee-jasper",
    "dendrite-opal",
-   "ethiopian-welo-opal-white-and-crystal",
    "gray-silverite",
+   "green-onyx-and-green-aventurine",
    "k2-granite",
    "labradorite",
    "lapis-lazuli",
@@ -369,11 +364,11 @@
    "amazonite",
    "aquamarine",
    "black-onyx-and-black-spinel",
-   "blue-and-lavender-chalcedony",
    "dendrite-opal",
    "gray-silverite",
    "green-onyx-and-green-aventurine",
    "k2-granite",
+   "kyanite",
    "labradorite",
    "lapis-lazuli",
    "peach-gray-chocolate-and-golden-shine-moonstone",
@@ -465,14 +460,14 @@
    "slices",
    "free size"
   ],
-  "productCount": 23,
+  "productCount": 21,
   "stones": [
-   "ethiopian-welo-opal-white-and-crystal",
    "green-onyx-and-green-aventurine",
    "iolite",
    "k2-granite",
    "lapis-lazuli",
    "peach-gray-chocolate-and-golden-shine-moonstone",
+   "ruby",
    "ruby-zoisite",
    "sapphire",
    "strawberry-quartz-and-red-aventurine",
