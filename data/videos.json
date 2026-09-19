@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-19T21:37:21+00:00",
+  "generatedAt": "2026-09-19T22:19:57+00:00",
   "policyVersion": 2,
   "stones": {
     "sapphire": {
-      "slug": "sapphire-gs2468-close-up",
-      "title": "Sapphire \u00b7 a closer look",
+      "slug": "sapphire-gs2468-colour-study",
+      "title": "Sapphire \u00b7 a study in colour",
       "subject": "Sapphire",
-      "src": "/video/reviewed-motion/sapphire-gs2468-close-up-a12bd60b43ac.mp4",
-      "poster": "/video/reviewed-motion/sapphire-gs2468-close-up-c2c9d0afa83b.jpg",
-      "duration": 5.0,
+      "src": "/video/reviewed-motion/sapphire-gs2468-colour-study-83b9410e33f0.mp4",
+      "poster": "/video/reviewed-motion/sapphire-gs2468-colour-study-fa3fea5f9e1f.jpg",
+      "duration": 24.0,
       "width": 1920,
       "height": 1080,
-      "audio": false,
+      "audio": true,
       "model": "fal-ai/kling-video/v3/pro/image-to-video",
       "kind": "stone",
       "provenance": {
@@ -19,26 +19,48 @@
         "model": "fal-ai/kling-video/v3/pro/image-to-video",
         "requestId": "01a0bb96-979f-7f31-a6be-3fb7c3209ab4",
         "jewelAppearancePreserved": true,
-        "approvedBy": "Codex visual comparison with independent second review",
+        "approvedBy": "Codex visual comparison with independent decoded-frame review",
         "approvedAt": "2026-09-19",
         "sourceReferences": [
-          "GS2468: original source-matched catalog photograph /img/authentic/GS2468-a14da14941a4-v1.jpg",
-          "Start frame: docs/sapphire-motion/source-frame-wide.png; SHA-256 c2c9d0afa83bba15125e4de89e698a7243a06ee8c864a5aee863b4be563eb9c8; complete original at 85% scale on white",
-          "End frame: docs/sapphire-motion/source-frame.png; SHA-256 7187564b3e83a2ae936fc5fd65b2180502da4fff83a4aaaa633f090e2bb0a125; complete source at original pixel dimensions",
-          "Visual comparisons: docs/sapphire-motion/kling-push-in-v3/review/visual-review.md",
-          "Web preparation: 1920x1080 H.264 CRF18, 24fps, 121 frames, +faststart; no resize, grading or geometry edits. All-frame SSIM versus generated master: 0.998734. This checks encoding quality, not identity."
+          "GS2468: two exact source-matched catalog photographs. Sources, masks, RGB checks and edge review: docs/sapphire-editorial/sources/manifest.json.",
+          "Original reviewed camera clip: docs/sapphire-editorial/reviewed-motion-source.json; held opening frame for one second followed by five seconds of its motion. Camera model/request identify only this contributing clip.",
+          "Photo compositions use original RGB and reviewed alpha masks, uniform proportional framing, pale studio backgrounds behind product, no grading or geometric editing. The second photo is expressly a detail crop; complete arrangement shown in the other shots.",
+          "Soundtrack: docs/sapphire-editorial/music/provenance.json; ElevenLabs Music v2.5 via FAL, source seconds 6\u201330, 0.8-second fade in, 1.8-second fade out; normalized quiet stereo instrumental.",
+          "Final review: docs/sapphire-editorial/review/visual-review.md; full-file decode, audio measurements and frame comparison: docs/sapphire-editorial/review/verification.json.",
+          "1920x1080 H.264 CRF18, 24fps, 576 frames, AAC stereo, fast-start; publication copies the reviewed final video bytes unchanged."
         ],
         "sourceImages": [
           {
             "sku": "GS2468",
             "image": "/img/authentic/GS2468-a14da14941a4-v1.jpg",
             "sha256": "7584df581814defe3295e3ac32b71fe7f5ebe5bc7f8dfd168977c56b7aeff788"
+          },
+          {
+            "sku": "GS2468",
+            "image": "/img/authentic/GS2468-2ac9e6cde992-v1.jpg",
+            "sha256": "6fa179e4b241eae099d2f2646768f41600254c27840a71d86e8746bab8ebd0f1"
           }
-        ]
+        ],
+        "assembly": "edited-product-film",
+        "sourceClips": [
+          {
+            "file": "docs/sapphire-motion/kling-push-in-v3/sapphire-gs2468-close-up-web-v3.mp4",
+            "sha256": "a12bd60b43ac338f30ec689774ecff04bb9742dd708fc101611bab50e16af059",
+            "start": 0,
+            "end": 5,
+            "approvalRecord": "docs/sapphire-editorial/reviewed-motion-source.json"
+          }
+        ],
+        "soundtrack": {
+          "file": "docs/sapphire-editorial/music/sapphire-editorial-instrumental.mp3",
+          "sha256": "36fab1f288a02691c21383ba11fa20ceab2e4497bf70141adc6426481bd79570",
+          "model": "elevenlabs/music/v2.5",
+          "requestId": "01a0bbbb-4830-7992-8408-e4ef46603b55"
+        }
       },
-      "sourceSha256": "a12bd60b43ac338f30ec689774ecff04bb9742dd708fc101611bab50e16af059",
-      "posterSha256": "c2c9d0afa83bba15125e4de89e698a7243a06ee8c864a5aee863b4be563eb9c8",
-      "publishedSha256": "a12bd60b43ac338f30ec689774ecff04bb9742dd708fc101611bab50e16af059",
+      "sourceSha256": "83b9410e33f021084b717fd5bbb179e42b21ead143f35a0be7f4a1988d903630",
+      "posterSha256": "fa3fea5f9e1f70366f5e96983a27a156914d72b801c9d8582eb34432bfb97b33",
+      "publishedSha256": "83b9410e33f021084b717fd5bbb179e42b21ead143f35a0be7f4a1988d903630",
       "stoneSlug": "sapphire"
     }
   },
