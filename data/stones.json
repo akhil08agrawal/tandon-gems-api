@@ -1751,10 +1751,12 @@
   "isPearl": false,
   "family": "charoite",
   "imageSlug": "",
-  "image": "",
-  "imageSourceSku": "",
-  "productCount": 0,
-  "shapesCarried": []
+  "image": "/img/authentic/GS381-f48b31de264b-v1.jpg",
+  "imageSourceSku": "GS381",
+  "productCount": 1,
+  "shapesCarried": [
+   "pear"
+  ]
  },
  "rhodochrosite": {
   "slug": "rhodochrosite",

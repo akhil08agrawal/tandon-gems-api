@@ -256,5 +256,11 @@
     "sourceImage": "/img/authentic/GS700-bb7af3e5b8bc-v1.jpg",
     "width": 1400,
     "height": 1400
+  },
+  "GS381": {
+    "image": "/img/presentation/GS381-beed26f288a9-v1.webp",
+    "sourceImage": "/img/authentic/GS381-f48b31de264b-v1.jpg",
+    "width": 1400,
+    "height": 1400
   }
 }
